@@ -1,0 +1,37 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height of the logo as needed */
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    gap: 1rem;
+  }
+  
+  .main-title {
+    font-size: 1em; /* Adjust the font size as needed */
+    font-weight: 300; /* You can make it bold or customize the font weight */
+    /* Add any other styles for the main title */
+    padding-top: 1rem;
+  }
+  
+  .sub-title {
+    font-size: .5em; /* Adjust the font size as needed */
+    /* Add any other styles for the sub title */
+    text-align: center;
+    margin-top:-20px;
+    font-weight: 300;
+  }
