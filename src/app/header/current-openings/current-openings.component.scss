@@ -1,0 +1,39 @@
+/* current-openings.component.css */
+
+/* Style for the card container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px; /* Set a maximum width for the container if needed */
+  }
+  
+.job-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card h3 {
+    color: #333;
+  }
+  
+  .job-card p {
+    color: #555;
+  }
+  
+  .job-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-card li {
+    margin-bottom: 5px;
+  }
+
+  strong {
+    font-weight: 400;
+  }
+  

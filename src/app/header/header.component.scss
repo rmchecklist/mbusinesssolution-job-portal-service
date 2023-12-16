@@ -10,7 +10,8 @@
   }
   
   .logo img {
-    height: 40px; /* Adjust the height of the logo as needed */
+    height: 65px; /* Adjust the height of the logo as needed */
+    margin-left:-20px
   }
   
   .actions {
@@ -35,3 +36,31 @@
     margin-top:-20px;
     font-weight: 300;
   }
+
+  /* Add these styles to your global styles or component-specific styles */
+
+/* Unvisited Link */
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Visited Link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* Hovered Link */
+  a:hover {
+    color: red;
+  }
+  
+
+  /* Add these styles to your global styles or component-specific styles */
+
+/* Highlight Active Link */
+a.active {
+    background-color: yellow; /* You can adjust the background color as needed */
+    color: black; /* You can adjust the text color as needed */
+  }
+  
